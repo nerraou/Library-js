@@ -2,12 +2,14 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 10px;
 }
 
 input[type="checkbox"] {
+  appearance: none;
+  margin: 0;
   display: grid;
   place-content: center;
-  appearance: none;
   color: #535c91;
   width: 2em;
   height: 2em;
@@ -28,4 +30,9 @@ input[type="checkbox"]::before {
 
 input[type="checkbox"]:checked::before {
   transform: scale(1);
+}
+
+input[type="checkbox"]:disabled {
+  color: #eeeeee;
+  cursor: not-allowed;
 }
