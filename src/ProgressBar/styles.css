@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 10px;
 }
 
 .progress-bar {
@@ -36,8 +37,4 @@ progress:before {
   background-color: #535c91;
   border-top-left-radius: 0.5em;
   border-bottom-left-radius: 0.5em;
-}
-
-.value {
-  color: #dac0a3;
 }
