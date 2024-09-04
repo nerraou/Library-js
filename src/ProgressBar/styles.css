@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.progress-bar {
+  appearance: none;
+  margin: 0;
+  text-align: center;
+  display: grid;
+  border: 0.15em solid #070f2b;
+  border-radius: 1em;
+  width: 500px;
+  height: 20px;
+
+  position: relative;
+}
+
+.progress-bar:before {
+  content: attr(data-label);
+  font-size: 0.8em;
+  color: #dac0a3;
+  vertical-align: 0;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.progress-bar::-webkit-progress-bar {
+  background-color: #fff;
+  border-radius: 0.5em;
+}
+
+.progress-bar::-webkit-progress-value {
+  background-color: #535c91;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
