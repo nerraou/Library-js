@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  background-color: #070f2b;
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.button:disabled {
+  opacity: 0.4;
+}
+
+.button--hover:hover {
+  background-color: #535c91;
+}
