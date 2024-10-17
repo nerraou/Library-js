@@ -4,7 +4,10 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "targets": {
+    "main": false
+  },
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
