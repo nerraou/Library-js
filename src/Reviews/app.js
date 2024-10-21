@@ -42,7 +42,6 @@ let curentItem = 0;
 
 window.addEventListener("DOMContentLoaded", () => {
   showPerson(curentItem);
-  // authorElement.title
 });
 
 function showPerson(personId) {
