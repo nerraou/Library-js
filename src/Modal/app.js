@@ -4,7 +4,6 @@ const hideButtonElement = document.querySelector(".close-btn");
 const modalOverlayElement = document.querySelector(".modal-overlay");
 
 showButtonElement.addEventListener("click", () => {
-  console.log("hello world");
   modalOverlayElement.classList.add("open-modal");
 });
 
